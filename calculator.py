@@ -15,7 +15,7 @@ while True:
         #Sees if the sign is multiply then if it is, multiplies the 2 numbers together.
         elif function == "*":
             print("Result:", num1 * num2)
-        #Checks if the second number is 2, if it is then prints an error otherwise it sees if the sign is division then if it is, divides the 2 numbers.
+        #Checks if the second number is 0, if it is then prints an error otherwise it sees if the sign is division then if it is, divides the 2 numbers.
         elif function == "/":
             if num2 == 0:
                 print("Error: Cannot divide by zero.")
